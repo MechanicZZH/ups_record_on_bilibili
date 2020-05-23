@@ -11,7 +11,6 @@ import xlrd
 n = 2 #从这个人对应的行数n开始，与序号无关
 m = 6 #mid为单行数据的第m个，m从0开始计算
 
-
 def LoadUserAgent(uafile):
     uas = []
     with open(uafile,'rb') as uaf:
